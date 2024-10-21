@@ -1,0 +1,6 @@
+# Исключить виртуальное окружение
+venv/
+bin/
+
+# Исключить файлы Docker Compose
+docker-compose.yml
