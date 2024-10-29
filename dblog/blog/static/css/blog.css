@@ -5,13 +5,13 @@ body {
 }
 
 a { 
-    color:#00abff;
+    color:#7f00ffd4;
     text-decoration:none; 
 }
 
 h1 { 
     font-weight:normal;
-    border-bottom:1px solid #e75f5f;
+    border-bottom:3px solid #21e6eb;
     padding:0 0 10px 0;
 }
 
@@ -30,7 +30,7 @@ h2 {
     float:right;
     width:30%;
     padding:10px;
-    background:#efefef; 
+    background:#31cd5152; 
     height:100%;
 }
 
