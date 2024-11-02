@@ -1,12 +1,19 @@
+from django.contrib.postgres.search import TrigramSimilarity
 from django.core.mail import send_mail
 from django.core.paginator import EmptyPage, PageNotAnInteger, Paginator
+from django.db.models import Count
 from django.shortcuts import get_object_or_404, render
 from django.views.decorators.http import require_POST
 from django.views.generic import ListView
-from django.db.models import Count
-from .forms import CommentForm, EmailPostForm
-from .models import Post
 from taggit.models import Tag
+
+from .forms import CommentForm, EmailPostForm, SearchForm
+from .models import Post
+from django.contrib.postgres.search import (
+    SearchVector,
+    SearchQuery,
+    SearchRank
+ )
 
 
 def post_list(request, tag_slug=None):
@@ -29,8 +36,10 @@ def post_list(request, tag_slug=None):
     return render(
         request,
         'blog/post/list.html',
-        {'posts': posts,
-         'tag': tag}
+        {
+            'posts': posts,
+            'tag': tag
+        }
     )
 
 
@@ -43,6 +52,7 @@ def post_detail(request, year, month, day, post):
         publish__month=month,
         publish__day=day,
     )
+
     # List of active comments for this post
     comments = post.comments.filter(active=True)
     # Form for users to comment
@@ -64,7 +74,7 @@ def post_detail(request, year, month, day, post):
             'post': post,
             'comments': comments,
             'form': form,
-            'similar_posts': similar_posts
+            'similar_posts': similar_posts,
         },
     )
 
@@ -100,7 +110,7 @@ def post_share(request, post_id):
             )
             subject = (
                 f"{cd['name']} ({cd['email']}) "
-                f"рекомендую почитать {post.title}"
+                f"recommends you read {post.title}"
             )
             message = (
                 f"Read {post.title} at {post_url}\n\n"
@@ -151,5 +161,34 @@ def post_comment(request, post_id):
             'post': post,
             'form': form,
             'comment': comment
+        },
+    )
+
+
+def post_search(request):
+    form = SearchForm()
+    query = None
+    results = []
+    if 'query' in request.GET:
+        form = SearchForm(request.GET)
+        if form.is_valid():
+            query = form.cleaned_data['query']
+            search_vector = SearchVector('title', 'body')
+            search_query = SearchQuery(query)
+            results = (
+                Post.published.annotate(
+                    search=search_vector,
+                    rank=SearchRank(search_vector, search_query)
+                )
+                .filter(search=search_query)
+                .order_by('-rank')
+            )
+    return render(
+        request,
+        'blog/post/search.html',
+        {
+            'form': form,
+            'query': query,
+            'results': results
         },
     )

@@ -1,0 +1,1443 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-22T14:22:30.746Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Осенние тренды 2024",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-22T14:57:46.991Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Осенние тренды 2024",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-22T15:00:03.082Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Осенние тренды 2024",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-22T15:00:21.599Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Осенние тренды 2024",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-22T15:05:19.095Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Осенние тренды 2024",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-22T15:07:48.036Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Основы Django: Как создать свой первый веб-сайт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-22T15:11:08.427Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Основы Django: Как создать свой первый веб-сайт",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-22T15:18:50.335Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-22T16:16:43.785Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "One more post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-23T14:44:20.090Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "One more post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-23T14:46:29.607Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Величие архитектуры: Памятники, которые стоит увидеть",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-23T14:56:26.679Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-10-24T07:53:42.549Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-10-24T07:55:39.545Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-10-24T07:56:31.621Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-10-24T08:12:59.597Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Взаимоуважение в сети: Искусство договариваться",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-10-27T06:49:28.195Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Иван Охлобыстин on Взаимоуважение в сети: Искусство договариваться",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-10-27T08:28:59.339Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Иван Охлобыстин on Величие архитектуры: Памятники, которые стоит увидеть",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-10-27T08:31:25.044Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by fetis on Взаимоуважение в сети: Искусство договариваться",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-10-27T08:36:03.685Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by fetis on Взаимоуважение в сети: Искусство договариваться",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-10-27T08:36:20.245Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by fetis on Взаимоуважение в сети: Искусство договариваться",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-10-29T06:30:01.852Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-10-29T06:30:15.313Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Величие архитектуры: Памятники, которые стоит увидеть",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-10-29T06:30:25.748Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-10-29T06:32:14.394Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "Testosteron",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-10-29T06:32:28.061Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "user2",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-10-29T06:32:53.475Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "user2",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-29T06:34:19.792Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "new2 title",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Slug\", \"Author\", \"Body\", \"Status\", \"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-29T09:28:44.578Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Learn Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-29T09:30:54.630Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Learn Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-29T09:32:13.355Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Learn Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-11-01T12:22:23.183Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$CkL1uvuYmNoroNnf8WIgtl$y4Q/oNpS5hwYumyTIEamOujnx7GUUPBTrNwy0jDKGr4=",
+    "last_login": "2024-11-01T12:20:24.909Z",
+    "is_superuser": true,
+    "username": "Testosteron",
+    "first_name": "",
+    "last_name": "",
+    "email": "ruyugen@outlook.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-10-22T14:11:58Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "User2",
+    "last_name": "",
+    "email": "solomindavid10@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-22T16:02:03Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "15xoslw18e95f3r0sya0bqu2rwdshdav",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4pIL-nlGNl5hujyRwookZp2Qrw7rdQBNtuf7bdwvC7FrT3NboriIpQ4_WaewzPVHcQH13uTodVlnrzcK_KgXd5aTK_r0f07KNzLtrZE8WwwwECb8oCgIyGMiXwOhASsdUjRqmEkNNlklRA3b7WyWgOLzxfHrTcl:1t3GCm:ss2aY5c454GE2fLKS_TxJGp7OzBNlAjA1De_w2d0pLY",
+    "expire_date": "2024-11-05T14:49:52.300Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4br9ptxuorj81kcfe2zd9xqmp0sle4ia",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4pIL-nlGNl5hujyRwookZp2Qrw7rdQBNtuf7bdwvC7FrT3NboriIpQ4_WaewzPVHcQH13uTodVlnrzcK_KgXd5aTK_r0f07KNzLtrZE8WwwwECb8oCgIyGMiXwOhASsdUjRqmEkNNlklRA3b7WyWgOLzxfHrTcl:1t6qdc:pYW0E_TlzPIiHg8txo-Axfv_DfX0Xhk8Bm2BQH-aHtM",
+    "expire_date": "2024-11-15T12:20:24.915Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jad8sizv8bvzzpslxq57u7jzoix8zqn3",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4pIL-nlGNl5hujyRwookZp2Qrw7rdQBNtuf7bdwvC7FrT3NboriIpQ4_WaewzPVHcQH13uTodVlnrzcK_KgXd5aTK_r0f07KNzLtrZE8WwwwECb8oCgIyGMiXwOhASsdUjRqmEkNNlklRA3b7WyWgOLzxfHrTcl:1t5iTM:etwsbj6A4yQS-3PGpfwtIlmTranVcX2s4le8LvKQcf0",
+    "expire_date": "2024-11-12T09:25:08.524Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nuq9nxo6u8402knj9vyihnify30rh0q5",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4pIL-nlGNl5hujyRwookZp2Qrw7rdQBNtuf7bdwvC7FrT3NboriIpQ4_WaewzPVHcQH13uTodVlnrzcK_KgXd5aTK_r0f07KNzLtrZE8WwwwECb8oCgIyGMiXwOhASsdUjRqmEkNNlklRA3b7WyWgOLzxfHrTcl:1t5fi7:DzW7HiLlEsSSb1FoKXTXYGgT6BNQy4iRBdBmy26Y5GE",
+    "expire_date": "2024-11-12T06:28:11.855Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ufndmoct3n365415gj7i0as410fjbfu9",
+  "fields": {
+    "session_data": ".eJxVjL0OwjAQg98lM4pIL-nlGNl5hujyRwookZp2Qrw7rdQBNtuf7bdwvC7FrT3NboriIpQ4_WaewzPVHcQH13uTodVlnrzcK_KgXd5aTK_r0f07KNzLtrZE8WwwwECb8oCgIyGMiXwOhASsdUjRqmEkNNlklRA3b7WyWgOLzxfHrTcl:1t3sel:CkgoOLNW0lx1X94m-rmkjMh9QB6PS1GQ1Ucdip7u79c",
+    "expire_date": "2024-11-07T07:53:19.984Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "freedom",
+    "slug": "freedom"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "moto",
+    "slug": "moto"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "learning",
+    "slug": "learning"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Осенние тренды 2024",
+    "slug": "osennie-trendy-2024",
+    "author": 1,
+    "body": "Осень 2024 года принесла множество новых модных трендов. В этом сезоне популярны теплые оттенки, уютные свитера и стильные аксессуары. Узнайте больше о том, как оставаться в тренде этой осенью!",
+    "publish": "2024-10-22T14:19:12Z",
+    "created": "2024-10-22T14:22:30.742Z",
+    "updated": "2024-10-22T14:22:30.742Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Основы Django: Как создать свой первый веб-сайт",
+    "slug": "osnovy-django-kak-sozdat-svoj-pervyj-veb-sajt",
+    "author": 1,
+    "body": "Django — это мощный веб-фреймворк на языке Python, который позволяет быстро и эффективно создавать веб-приложения. В этом посте мы рассмотрим основные шаги по созданию вашего первого веб-сайта с использованием Django.\r\n\r\nШаг 1: Установка Django Для начала установите Django с помощью pip:\r\n\r\npip install django\r\n\r\nШаг 2: Создание проекта Создайте новый проект с помощью команды:\r\n\r\ndjango-admin startproject mysite\r\n\r\nШаг 3: Запуск сервера Перейдите в директорию проекта и запустите сервер:\r\n\r\ncd mysite\r\npython manage.py runserver\r\n\r\nШаг 4: Создание приложения Создайте новое приложение внутри вашего проекта:\r\n\r\npython manage.py startapp blog\r\n\r\nШаг 5: Настройка модели Определите модели данных в файле models.py вашего приложения.\r\n\r\nШаг 6: Создание и применение миграций Создайте и примените миграции для базы данных:\r\n\r\npython manage.py makemigrations\r\npython manage.py migrate\r\n\r\nШаг 7: Создание представлений и шаблонов Определите представления в файле views.py и создайте шаблоны для отображения данных.\r\n\r\nШаг 8: Настройка URL-адресов Настройте маршрутизацию URL-адресов в файле urls.py.\r\n\r\nТеперь ваш первый веб-сайт на Django готов! Продолжайте изучать документацию и экспериментировать с различными функциями Django, чтобы создавать более сложные и функциональные веб-приложения.",
+    "publish": "2024-10-22T15:05:19Z",
+    "created": "2024-10-22T15:07:48.035Z",
+    "updated": "2024-10-22T15:07:48.035Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Мотоциклы и Байкеры: Свобода на Двух Колесах",
+    "slug": "motocikly-i-bajkery-svoboda-na-dvuh-kolesah",
+    "author": 1,
+    "body": "Мотоциклы — это не просто средство передвижения, это символ свободы, скорости и духа приключений. Байкеры, в свою очередь, — это особая субкультура, объединенная любовью к этим железным коням и жаждой дороги.\r\n\r\nИстория и Культура Байкеров: Байкерское движение зародилось в 1950-х годах в США и быстро распространилось по всему миру 1. В основе их философии лежат три главных символа: дорога, скорость и свобода 2. Байкеры часто объединяются в клубы, где царит дух братства и взаимопомощи.\r\n\r\nВнешний Вид и Символика: Классический образ байкера включает кожаную куртку-косуху, джинсовую или кожаную жилетку с символикой клуба, кожаные штаны и банданы. Символика байкеров часто включает черепа, железные кресты и флаги клуба и их сообществ.\r\nМотоциклы: Байкеры предпочитают мощные и стильные мотоциклы, такие как Harley-Davidson и Indian. Эти мотоциклы не только выглядят впечатляюще, но и обладают уникальным звуком, который невозможно спутать ни с чем.\r\nБайк-шоу и События: Одним из самых ярких событий в жизни байкеров являются байк-шоу и фестивали. Это отличная возможность встретиться с единомышленниками, показать свои мотоциклы и насладиться атмосферой праздника.\r\nЗаключение: Мотоциклы и байкеры — это не просто хобби, это образ жизни. Они воплощают в себе дух свободы и независимости, который так привлекателен для многих. Если вы когда-нибудь задумывались о том, чтобы стать частью этого мира, не бойтесь сделать первый шаг. Дорога ждет вас!",
+    "publish": "2024-10-22T15:17:09Z",
+    "created": "2024-10-22T15:18:50.331Z",
+    "updated": "2024-10-29T06:30:25.745Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "new2 title",
+    "slug": "Another-post",
+    "author": 2,
+    "body": "Post body ......",
+    "publish": "2024-10-22T15:50:20Z",
+    "created": "2024-10-22T15:50:33.943Z",
+    "updated": "2024-10-29T06:34:19.789Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": 2,
+    "body": "Post body",
+    "publish": "2024-10-22T16:08:28Z",
+    "created": "2024-10-22T16:08:28.085Z",
+    "updated": "2024-10-22T16:08:28.085Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Величие архитектуры: Памятники, которые стоит увидеть",
+    "slug": "velichie-arhitektury-pamyatniki-kotorye-stoit-uvidet",
+    "author": 1,
+    "body": "Архитектурные памятники являются неотъемлемой частью культурного наследия человечества. Они рассказывают нам о прошлом, вдохновляют в настоящем и формируют будущее. В этой статье мы рассмотрим несколько выдающихся памятников архитектуры, которые стоит посетить каждому любителю истории и искусства. От величественных пирамид Гизы до изысканных дворцов Европы — каждый из них уникален и заслуживает внимания.",
+    "publish": "2024-10-23T14:45:49Z",
+    "created": "2024-10-23T14:46:29.606Z",
+    "updated": "2024-10-29T06:30:15.306Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Взаимоуважение в сети: Искусство договариваться",
+    "slug": "vzaimouvazhenie-v-seti-iskusstvo-dogovarivatsya",
+    "author": 1,
+    "body": "В современном мире, где интернет стал неотъемлемой частью нашей жизни, умение вести себя уважительно и договариваться с другими людьми в сети приобретает особую важность. К сожалению, таких людей, которые умеют это делать, не так много, и именно поэтому важно говорить об этом.\r\n\r\nПочему взаимоуважение важно?\r\nВзаимоуважение — это основа здорового общения. Оно помогает создавать позитивную атмосферу, где каждый чувствует себя услышанным и ценным. В сети, где отсутствует личный контакт, это особенно важно, так как неверное толкование слов может легко привести к конфликтам.\r\n\r\nКак проявлять уважение в сети?\r\nБудьте вежливыми: Используйте вежливые слова и выражения. Помните, что по ту сторону экрана тоже человек.\r\nСлушайте и читайте внимательно: Прежде чем ответить, убедитесь, что вы правильно поняли собеседника.\r\nИзбегайте агрессии: Даже если вы не согласны с мнением другого человека, выражайте своё мнение спокойно и аргументированно.\r\nУважайте личное пространство: Не навязывайтесь и не требуйте немедленного ответа.\r\nИскусство договариваться\r\nУмение договариваться — это способность находить компромиссы и решения, которые устраивают обе стороны. Вот несколько советов, как этого добиться:\r\n\r\nБудьте открытыми к диалогу: Слушайте аргументы другой стороны и старайтесь понять её точку зрения.\r\nИщите общие интересы: Найдите точки соприкосновения, которые помогут вам прийти к соглашению.\r\nБудьте готовы к компромиссам: Иногда нужно уступить в чём-то, чтобы достичь большего.\r\nСохраняйте спокойствие: Эмоции могут мешать конструктивному диалогу, поэтому старайтесь сохранять хладнокровие.\r\nЗаключение\r\nВзаимоуважение и умение договариваться — это ключевые навыки, которые помогают создавать гармоничное и продуктивное общение в сети. Давайте стремиться к тому, чтобы быть примером для других и делать интернет лучше!",
+    "publish": "2024-10-24T08:12:11Z",
+    "created": "2024-10-24T08:12:59.591Z",
+    "updated": "2024-10-24T08:12:59.591Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Learn Django",
+    "slug": "learn-django",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n-------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\n Here is a list:\r\n\r\n * One\r\n * Two\r\n * Three\r\n\r\n And a [link to the Django website](https://netology.ru/sharing/b516b37186d04e5db0349c110780ff57?utm_source=social&utm_campaign=certificate_lms ).",
+    "publish": "2024-10-29T09:25:18Z",
+    "created": "2024-10-29T09:28:44.573Z",
+    "updated": "2024-10-29T09:32:13.339Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 8,
+    "name": "Иван Охлобыстин",
+    "email": "mail@ya.ru",
+    "body": "Договариваться надо уметь",
+    "created": "2024-10-27T06:49:28.192Z",
+    "updated": "2024-10-27T06:49:28.192Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "Иван Охлобыстин",
+    "email": "mail@ya.ru",
+    "body": "Великолепная статья! Архитектурные памятники действительно играют важную роль в нашей культуре и истории. Было бы интересно узнать больше о менее известных, но не менее впечатляющих памятниках по всему миру.",
+    "created": "2024-10-27T08:27:57.924Z",
+    "updated": "2024-10-27T08:28:59.335Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 8,
+    "name": "fetis",
+    "email": "karfogen@outlook.com",
+    "body": "Договор - дороже денег !",
+    "created": "2024-10-27T08:31:25.043Z",
+    "updated": "2024-10-27T08:36:20.243Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka22",
+    "email": "daupaffewobou-3124@yopmail.com",
+    "body": "i like it",
+    "created": "2024-10-27T08:32:31.934Z",
+    "updated": "2024-10-27T08:32:31.934Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 5,
+  "fields": {
+    "post": 7,
+    "name": "Melvin Connolly",
+    "email": "melvinconnolly@mailinator.com",
+    "body": "good job",
+    "created": "2024-10-27T08:53:19.496Z",
+    "updated": "2024-10-27T08:53:19.496Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 6,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:55:54.046Z",
+    "updated": "2024-11-01T13:55:54.046Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 7,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:56:01.049Z",
+    "updated": "2024-11-01T13:56:01.049Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 8,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:56:30.319Z",
+    "updated": "2024-11-01T13:56:30.319Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 9,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:57:06.194Z",
+    "updated": "2024-11-01T13:57:06.194Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 10,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:57:42.241Z",
+    "updated": "2024-11-01T13:57:42.241Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 11,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:57:56.336Z",
+    "updated": "2024-11-01T13:57:56.336Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 12,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:58:46.000Z",
+    "updated": "2024-11-01T13:58:46.001Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 13,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:59:28.138Z",
+    "updated": "2024-11-01T13:59:28.138Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 14,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T13:59:42.842Z",
+    "updated": "2024-11-01T13:59:42.842Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 15,
+  "fields": {
+    "post": 8,
+    "name": "Ulovka23",
+    "email": "daupaffewobou@mail.com",
+    "body": "Учитесь",
+    "created": "2024-11-01T14:00:27.858Z",
+    "updated": "2024-11-01T14:00:27.859Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 16,
+  "fields": {
+    "post": 9,
+    "name": "fetis",
+    "email": "1ugen@outlook.com",
+    "body": "DJANGO нужно учить!",
+    "created": "2024-11-01T14:08:22.618Z",
+    "updated": "2024-11-01T14:08:22.618Z",
+    "active": true
+  }
+}
+]
