@@ -14,7 +14,7 @@ from django.contrib.postgres.search import (
     SearchQuery,
     SearchRank
  )
-
+from django.contrib.postgres.search import TrigramSimilarity
 
 def post_list(request, tag_slug=None):
     post_list = Post.published.all()
@@ -173,15 +173,16 @@ def post_search(request):
         form = SearchForm(request.GET)
         if form.is_valid():
             query = form.cleaned_data['query']
-            search_vector = SearchVector('title', 'body')
+            search_vector = SearchVector(
+                'title', weight='A'
+                ) + SearchVector('body', weight='B')
             search_query = SearchQuery(query)
             results = (
                 Post.published.annotate(
-                    search=search_vector,
-                    rank=SearchRank(search_vector, search_query)
+                     similarity=TrigramSimilarity('title', query),
                 )
-                .filter(search=search_query)
-                .order_by('-rank')
+                .filter(similarity__gt=0.1)
+                .order_by('-similarity')
             )
     return render(
         request,
