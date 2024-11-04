@@ -27,11 +27,11 @@
       {% if request.user.is_authenticated %}
         Привет {{ request.user.first_name|default:request.user.username }},
         <form action="{% url "logout" %}" method="post">
-          <button type="submit">Съебаться</button>
+          <button type="submit">Съебаться отсюда</button>
           {% csrf_token %}
         </form>
       {% else %}
-        <a href="{% url "login" %}">Log-in</a>
+        <a href="{% url "login" %}">Войти</a>
       {% endif %}
     </span>
 
