@@ -16,7 +16,7 @@ var body = document.getElementsByTagName('body')[0];
 boxHtml = `
   <div id="bookmarklet">
     <a href="#" id="close">&times;</a>
-    <h1>Select an image to bookmark:</h1>
+    <h1>Выберите изображение, чтобы добавить его в закладки:</h1>
     <div class="images"></div>
   </div>`;
 body.innerHTML += boxHtml;
