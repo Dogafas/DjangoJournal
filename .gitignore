@@ -135,3 +135,7 @@ dmypy.json
 
 cert.crt
 cert.key
+*.crt
+*.key
+bookmarks/cert.key
+bookmarks/cert.crt
