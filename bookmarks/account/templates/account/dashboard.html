@@ -9,4 +9,11 @@
   {% endwith %}
   <p>Перетащите следующую кнопку на панель инструментов закладок, чтобы добавить в закладки изображения из других веб-сайтов. → <a href="javascript:{% include "bookmarklet_launcher.js" %}" class="button">Добавьте в закладки</a></p>
   <p>Вы также можете <a href="{% url "edit" %}">изменить профиль</a> или <a href="{% url "password_change" %}">изменить пароль</a>.</p>
+
+  <h2>История событий</h2>
+  <div id="action-list">
+    {% for action in actions %}
+      {% include "actions/action/detail.html" %}
+    {% endfor %}
+  </div>
 {% endblock %}
