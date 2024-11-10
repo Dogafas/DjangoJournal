@@ -13,6 +13,12 @@ from django.views.decorators.http import require_POST
 from actions.utils import create_action
 from actions.models import Action
 
+
+# создание профилей у кого их нет
+from django.core.management.base import BaseCommand
+from django.contrib.auth.models import User
+# from account import Profile
+
 User = get_user_model()
 
 # Create your views here.
@@ -164,3 +170,19 @@ def user_follow(request):
         except User.DoesNotExist:
             return JsonResponse({'status': 'error'})
     return JsonResponse({'status': 'error'})
+
+
+
+
+class Command(BaseCommand):
+    help = 'Create profiles for users without profiles'
+
+    def handle(self, *args, **kwargs):
+        users = User.objects.all()
+        for user in users:
+            if not hasattr(user, 'profile'):
+                Profile.objects.create(user=user)
+        self.stdout.write(self.style.SUCCESS('Successfully created profiles for users without profiles'))
+
+
+
