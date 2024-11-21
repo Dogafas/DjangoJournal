@@ -1,5 +1,5 @@
 {% extends "shop/base.html" %}
-{% load static %}
+{% load i18n static %}
 
 {% block title %}
   {{ product.name }}
@@ -18,13 +18,13 @@
     <form action="{% url "cart:cart_add" product.id %}" method="post">
       {{ cart_product_form }}
       {% csrf_token %}
-      <input type="submit" value="Add to cart">
+      <input type="submit" value="{% translate "Add to cart" %}">
     </form>
     {{ product.description|linebreaks }}
 
     {% if recommended_products %}
       <div class="recommendations">
-        <h3>Люди, которые купили это ☝🏽, также приобрели эти товары👇</h3>
+        <h3>{% translate "People who bought this also bought" %}</h3>
         {% for p in recommended_products %}
           <div class="item">
             <a href="{{ p.get_absolute_url }}">

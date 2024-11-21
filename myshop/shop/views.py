@@ -1,4 +1,5 @@
 from django.shortcuts import get_object_or_404, render
+
 from cart.forms import CartAddProductForm
 from .models import Category, Product
 from .recommender import Recommender
@@ -9,7 +10,12 @@ def product_list(request, category_slug=None):
     categories = Category.objects.all()
     products = Product.objects.filter(available=True)
     if category_slug:
-        category = get_object_or_404(Category, slug=category_slug)
+        language = request.LANGUAGE_CODE
+        category = get_object_or_404(
+            Category,
+            translations__language_code=language,
+            translations__slug=category_slug,
+        )
         products = products.filter(category=category)
     return render(
         request,
@@ -23,8 +29,13 @@ def product_list(request, category_slug=None):
 
 
 def product_detail(request, id, slug):
+    language = request.LANGUAGE_CODE
     product = get_object_or_404(
-        Product, id=id, slug=slug, available=True
+        Product,
+        id=id,
+        translations__language_code=language,
+        translations__slug=slug,
+        available=True,
     )
     cart_product_form = CartAddProductForm()
     r = Recommender()
@@ -32,8 +43,9 @@ def product_detail(request, id, slug):
     return render(
         request,
         'shop/product/detail.html',
-        {'product': product, 
-         'cart_product_form': cart_product_form,
-         'recommended_products': recommended_products
-         }
+        {
+            'product': product,
+            'cart_product_form': cart_product_form,
+            'recommended_products': recommended_products,
+        },
     )

@@ -1,0 +1,127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-21 15:24+0700\n"
+"PO-Revision-Date: 2024-11-21 15:26+0000\n"
+"Last-Translator:   <ypa-ypa@mail.ru>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\cart\forms.py:10
+msgid "Quantity"
+msgstr "Quantity"
+
+#: .\coupons\forms.py:5
+msgid "Coupon"
+msgstr "Coupon"
+
+#: .\myshop\settings.py:144
+msgid "English"
+msgstr "English"
+
+#: .\myshop\settings.py:145
+msgid "Spanish"
+msgstr "Spanish"
+
+#: .\myshop\settings.py:146
+msgid "Russian"
+msgstr "Russian"
+
+#: .\myshop\urls.py:29
+msgid "cart/"
+msgstr "cart/"
+
+#: .\myshop\urls.py:30
+msgid "orders/"
+msgstr "orders/"
+
+#: .\myshop\urls.py:31
+msgid "payment/"
+msgstr "payment/"
+
+#: .\myshop\urls.py:32
+msgid "coupons/"
+msgstr "coupons/"
+
+#: .\payment\urls.py:9
+msgid "process/"
+msgstr "process/"
+
+#: .\payment\urls.py:10
+msgid "completed/"
+msgstr "completed/"
+
+#: .\payment\urls.py:11
+msgid "canceled/"
+msgstr "canceled/"
+
+#: .\shop\templates\shop\base.html:6 .\shop\templates\shop\base.html:11
+msgid "Online shop"
+msgstr "Online shop"
+
+#: .\shop\templates\shop\base.html:16
+msgid "Language"
+msgstr "Language"
+
+#: .\shop\templates\shop\base.html:34
+msgid "Your cart"
+msgstr "Your cart"
+
+#: .\shop\templates\shop\base.html:36
+#, python-format
+msgid ""
+"\n"
+"                %(items)s item, $%(total)s\n"
+"              "
+msgid_plural ""
+"\n"
+"                %(items)s items, $%(total)s\n"
+"              "
+msgstr[0] ""
+"\n"
+"                %(items)s item, $%(total)s\n"
+"              "
+msgstr[1] ""
+"\n"
+"                %(items)s items, $%(total)s\n"
+"              "
+
+#: .\shop\templates\shop\base.html:43
+msgid "Your cart is empty."
+msgstr "Your cart is empty."
+
+#: .\shop\templates\shop\product\detail.html:21
+msgid "Add to cart"
+msgstr "Add to cart"
+
+#: .\shop\templates\shop\product\detail.html:27
+msgid "People who bought this also bought"
+msgstr "People who bought this also bought"
+
+#: .\shop\templates\shop\product\list.html:5
+#: .\shop\templates\shop\product\list.html:23
+msgid "Products"
+msgstr "Products"
+
+#: .\shop\templates\shop\product\list.html:10
+msgid "Categories"
+msgstr "Categories"
+
+#: .\shop\templates\shop\product\list.html:13
+msgid "All"
+msgstr "All"
+
+#~ msgid "My shop"
+#~ msgstr "My shop"
